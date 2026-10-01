@@ -1,0 +1,76 @@
+
+.logoAndSearch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    &#caretDown{
+        width: 10px;
+        height: 10px;
+    }
+}
+
+input[type="text"]{
+    border-radius: 30px;
+    width: 20vw;
+    height: 5vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h5{
+    margin: 0px;
+}
+
+.primaryMenu{
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &:hover{
+        cursor: pointer;
+        position: relative;
+        bottom: 2px;
+    }
+}
+
+.businessCaret, .profileCaret{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.businessCaret{
+    width: 6.75vw;
+}
+
+.profileCaret{
+    width: 2.5vw;
+}
+
+main{
+    flex-grow: 1;
+}
+
+#business{
+    border-left: 1px solid black;
+}
