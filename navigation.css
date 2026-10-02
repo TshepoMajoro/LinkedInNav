@@ -29,6 +29,8 @@ input[type="text"]{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: beige;
+    margin-top: 0px;
 }
 
 #people, #home{
@@ -65,11 +67,13 @@ h6{
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 5px;
 
     &:hover{
         cursor: pointer;
-        position: relative;
+        /* position: relative; */
         bottom: 2px;
+        border-bottom: 2.5px solid black;
     }
 }
 
@@ -114,4 +118,9 @@ main{
     position: absolute;
     left: 10px;
     top: 2.5px;
+}
+
+.logoAndSearch, .primaryMenu{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
